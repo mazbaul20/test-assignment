@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        .container{
+            width: 700px;
+            margin: 0px auto;
+            background-color: rgb(227, 233, 238);
+            padding: 20px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .btn-primary{
+            padding: 8px 10px;
+            background-color: rgb(255, 0, 0);
+            font-size: 14px;
+            color:white;
+            border: none;
+            border-radius: 7px 7px 7px 7px;
+        }
+        .btn-primary:hover{
+            background-color: rgb(255, 67, 67);
+            cursor: pointer;
+            transition: 2000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" id="test">This is my first website</h1>
+        added Winget installation problem note
+        <button class="btn-primary" onclick="change()">change text</button>
+    </div>
+    <script>
+        function change(){
+           let modify = document.getElementById('test');
+            modify.innerHTML="hello world" 
+        }
+    
+    </script>
+</body>
+</html>
